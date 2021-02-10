@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+    cursor: context-menu;
+}
+
+header {
+    background-color: #ff7b54;
+    width: 100%;
+    line-height: 15vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef, 0 4px 0 #efefef, 0 15px 3px rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+    color: white;
+}
+
+section {
+    background-color: #ffd56b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.gameField {
+    background-color: #ffb26b;
+    height: 70%;
+    width: 50%;
+    box-shadow: 0 10px 10px -8px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.anagram {
+    color: rgb(53, 53, 53);
+}
+
+input {
+    width: 40%;
+    padding: 15px 0;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #939b62;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    margin: 30px 0;
+    cursor: text;
+}
+
+button {
+    font-size: 17px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button.btn {
+    padding: 15px 20px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    background: #ff7b54;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+
+button.btn:hover, button.btn:focus, button.btn:active {
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+
+.hidden {
+    display: none;
+}
